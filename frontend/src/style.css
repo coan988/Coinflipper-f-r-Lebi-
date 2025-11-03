@@ -1,0 +1,33 @@
+.page {
+  text-align: center;
+  font-family: system-ui;
+  padding: 40px;
+  background: #10172a;
+  color: white;
+  min-height: 100vh;
+}
+
+button {
+  margin: 8px;
+  padding: 12px 20px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #2563eb;
+}
+button:disabled {
+  background: #374151;
+  cursor: wait;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}

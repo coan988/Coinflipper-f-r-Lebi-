@@ -1,0 +1,61 @@
+# -------------------------
+#  PYTHON / FASTAPI BACKEND
+# -------------------------
+
+# Virtuelle Umgebungen
+.venv/
+env/
+venv/
+
+# Bytecode / Caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs & temporäre Dateien
+*.log
+*.tmp
+
+# Umgebungsvariablen
+.env
+*.env
+
+# -------------------------
+#  NODE / VITE FRONTEND
+# -------------------------
+
+# Node modules
+frontend/node_modules/
+
+# Build output (wird mit npm run build erzeugt)
+frontend/dist/
+
+# Lockfiles (optional, falls du sie nicht teilen willst)
+# package-lock.json
+# yarn.lock
+
+# Vite cache
+frontend/.vite/
+
+# -------------------------
+#  SYSTEMDATEIEN
+# -------------------------
+
+# Windows / macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDEs / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+#  BACKUP / TEMP / TESTFILES
+# -------------------------
+*.bak
+*.old
+*.orig
