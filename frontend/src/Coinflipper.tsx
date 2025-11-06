@@ -7,7 +7,7 @@ export default function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [bet, setBet] = useState<number>(10)
-  const [userId] = useState("demo-student") // später dynamisch vom Login
+  const [userId] = useState("demo-student") // anpassen wenn Loginmaske fertig ist
 
   const handleFlip = async (choice: "heads" | "tails") => {
     setLoading(true)
@@ -15,7 +15,7 @@ export default function App() {
     setResult(null)
 
     try {
-      const res = await fetch("/api/flip", {
+      const res = await fetch("/coinflip/play", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId, choice, bet }),
