@@ -1,12 +1,9 @@
 # Python / Backend
 backend/.venv/
-backend/env/
-backend/venv/
 backend/__pycache__/
 backend/*.log
 backend/*.tmp
 backend/.env
-backend/*.env
 
 # Node / Frontend
 frontend/node_modules/
